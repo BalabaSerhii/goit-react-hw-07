@@ -1,0 +1,29 @@
+
+.container {
+  position: relative; /* Добавляем относительное позиционирование */
+  border: 1px solid black;
+  width: 500px;
+  height: 250px;
+}
+.name {
+  width: 300px;
+}
+.divLabel {
+  /* flex-direction: column; */
+  padding: 10px;
+}
+.span {
+  display: block; 
+  margin-top: 5px;
+  color: red;
+  
+
+  text-align: center;
+
+}
+.label {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
