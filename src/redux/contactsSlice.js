@@ -1,3 +1,6 @@
+import { createSelector, createSlice } from "@reduxjs/toolkit";
+import { fetchCont, addCont, dellContact } from "./contactsFe";
+import { selectNameFilter } from "./filtersSlice";
 
 import { createSlice, nanoid } from "@reduxjs/toolkit";
 
